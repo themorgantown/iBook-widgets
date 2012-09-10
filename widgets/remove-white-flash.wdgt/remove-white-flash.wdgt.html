@@ -12,13 +12,12 @@
 		}
 	</style>
 	
-	<script type="text/javascript" src="AppleClasses/AppleWidget.js"> </script>
 	<script type="text/javascript">
-	window.onload = function ()
-	{
-	widget.notifyContentIsReady();
-	//window.location = 'apb:///do?c=ready';
-	}
+	    window.onload = function() 
+	    {
+	    var div = document.getElementById("IBPreload");
+	    div.parentNode.removeChild(div);        
+	    }
 	</script>
 	
   </head>
@@ -30,6 +29,11 @@
 	<!-- copy these lines to your document: -->
 
 	<div id="removewhiteflash_hype_container" style="position:relative;overflow:hidden;width:600px;height:400px;">
+		
+		<div id="IBPreload">
+      			<img src="Default.png">
+		</div>
+		
 		<script type="text/javascript" charset="utf-8" src="remove-white-flash.wdgt_Resources/removewhiteflash_hype_generated_script.js?50968"></script>
 	</div>
 
