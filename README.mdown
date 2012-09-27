@@ -2,10 +2,12 @@
 
 Easy to adapt examples of HTML Widgets.
 
-The widgets enclosed were created with Tumult Hype. For more info on Tumult Hype and iBooks, please see 
+The widgets enclosed were created with Tumult Hype. For more info on Tumult Hype and iBooks, please see:
 
 * [Easy HTML5 Animations in iBooks Author using Tumult Hype](http://blog.tumultco.com/2012/01/20/easy-html5-animations-in-ibooks-using-tumult-hype-and-ibooks-author/)
 * [An assortment of articles in the Tumult Hype forums](http://hype.desk.com/customer/portal/topics/286663-ibooks-author-widgets/articles)
+
+Explore the /widgets folder for examples of adding audio to iBooks author, removing the white flash that occurs when loading widgets, and for various data-storage techniques created by widged. 
 
 The following examples were forked from /widged/iBook-widgets/: 
 * firebugEmbed.wdgt	 
