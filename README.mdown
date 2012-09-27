@@ -6,3 +6,12 @@ The widgets enclosed were created with Tumult Hype. For more info on Tumult Hype
 
 * [Easy HTML5 Animations in iBooks Author using Tumult Hype](http://blog.tumultco.com/2012/01/20/easy-html5-animations-in-ibooks-using-tumult-hype-and-ibooks-author/)
 * [An assortment of articles in the Tumult Hype forums](http://hype.desk.com/customer/portal/topics/286663-ibooks-author-widgets/articles)
+
+The following examples were forked from /widged/iBook-widgets/: 
+* firebugEmbed.wdgt	 
+* googleStorage.wdgt 
+* initializeGoogleStorage.wdgt 
+* jsxgraph.wdgt 
+* khanExercises.wdgt 
+* localStorage.wdgt 
+* sharingDataAcrossWidgets.wdgt
