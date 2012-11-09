@@ -26,15 +26,14 @@
 
 			<p>Please enter your name</p>
 			<p>
-        <input type="text" id="studentName" size="40" value="John Doe" /> 
+        <input type="text" id="studentName" size="40" value="Enter your name" /> 
         <span id="lastSaved"></span>
       </p>
 			<p><a id="btn-save" class="btn btn-primary btn-large">Save Data</a></p>
-
+			
+			
 	</div>
-    <!-- ================================================== -->
-    <!-- Javascript placed at the end of the document so the pages load faster -->
-
+    
     <!-- jQuery, needed both for activity and boostrap -->
    <script language="javascript" type="text/javascript" src="libs/jquery.js"></script>
     <!-- Bootstrap, for the nice looking interface -->
@@ -46,15 +45,18 @@
 		var $input = $("input#studentName");
 
 		if(localStorage.studentName) {
-			$('span#lastSaved').html('(last saved: ' + localStorage.studentName + ")")
+			$('span#lastSaved').html('(Saved value: ' + localStorage.studentName + ")")
 		}
 
 		$('#btn-save').click(function () {
 		 var studentName =  $input.val();
 		 localStorage.studentName=studentName;
 		 localStorage.completedActivity1=true;
+		 // once the value has been stored, reload the page.
+		 //window.location.href=window.location.href;
+		 $('span#lastSaved').html('(Saved value: ' + localStorage.studentName + ")")
 		});
-
+		
 	</script>
 
 
