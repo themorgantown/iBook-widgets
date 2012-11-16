@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+	<meta name="viewport" content="user-scalable=yes, width=600" />
+	<title>advancedwidget</title>
+	<style>
+		body {
+			background-color: #FFFFFF;
+			margin: 0px;
+		}
+	</style>
+
+	<!-- copy these lines to your document head: -->
+
+
+	
+	<!-- 
+	Load the Apple events stored on the device. This provides access to the listener
+	used below
+	 -->
+	<script type="text/javascript" src="AppleClasses/AppleWidget.js"> </script>
+	
+	<script>
+	  	function myCallback(hypeDocument, element, event) {
+	 	// Get the name of the document. This is also on line 5 of the generated javascript file. 
+		window.DocumentName = hypeDocument.documentName();
+		}
+	  
+	  	if("HYPE_eventListeners" in window === false) {
+	    window.HYPE_eventListeners = Array();
+	  	}
+	  	window.HYPE_eventListeners.push({"type":"HypeDocumentLoad", "callback":myCallback});
+	</script>
+	
+	<script type="text/javascript">
+	  	widget.pauseAudioVisual = function() {
+	    // Go to the Quiet scene when closing a widget
+	    HYPE.documents[DocumentName].showSceneNamed("quietscene");
+	  	};
+	
+	  	widget.didEnterWidgetMode = function() {
+	    // When reopening the widget, go back to the first scene
+	    HYPE.documents[DocumentName].showSceneNamed("firstscene");
+	  	};
+	</script>
+
+<style>
+	html {background-color:olive;}
+</style>
+		 	
+	<!-- end copy -->
+
+  </head>
+  <body>
+	<div style ="margin:auto;width:600px">
+
+
+	
+	<!-- copy these lines to your document: -->
+
+	<div id="advancedwidget_hype_container" style="position:relative;overflow:hidden;width:600px;height:400px;">
+		<script type="text/javascript" charset="utf-8" src="advancedwidget.wdgt.Resources/advancedwidget_hype_generated_script.js?63349"></script>
+	</div>
+
+	<!-- end copy -->
+	
+
+
+	</div>
+  </body>
+</html>
