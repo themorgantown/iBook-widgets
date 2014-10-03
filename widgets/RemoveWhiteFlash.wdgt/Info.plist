@@ -7,22 +7,20 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>remove-white-flash</string>
+	<string>Nicaragua</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.tumult.hype.widget.removewhiteflash</string>
+	<string>com.tumult.hype.widget.Nicaragua</string>
 	<key>CFBundleName</key>
-	<string>remove-white-flash</string>
+	<string>Nicaragua</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>Height</key>
-	<string>400</string>
+	<string>1200</string>
 	<key>MainHTML</key>
-	<string>remove-white-flash.wdgt.html</string>
+	<string>Nicaragua.wdgt.html</string>
 	<key>Width</key>
-	<string>600</string>
-	<key>IBNotifiesOnReady</key>
-	<true/>
+	<string>900</string>
 </dict>
 </plist>
