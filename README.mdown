@@ -1,19 +1,28 @@
 # iBooks HTML Widget examples
 
-Easy to adapt examples of HTML Widgets.
+Easy to adapt examples and demos of HTML Widgets.
+
+
 
 The widgets enclosed were created with Tumult Hype. For more info on Tumult Hype and iBooks, please see:
 
-* [Easy HTML5 Animations in iBooks Author using Tumult Hype](http://blog.tumultco.com/2012/01/20/easy-html5-animations-in-ibooks-using-tumult-hype-and-ibooks-author/)
-* [An assortment of articles in the Tumult Hype forums](http://hype.desk.com/customer/portal/topics/286663-ibooks-author-widgets/articles)
+* [Easy HTML5 Animations in iBooks Author using Tumult Hype](http://blog.tumult.com/2012/01/20/easy-html5-animations-in-ibooks-using-tumult-hype-and-ibooks-author/)
+* [An assortment of articles in the Tumult Hype forums](http://forums.tumult.com/c/exporting-previewing/ibooks-widget)
 
-Explore the /widgets folder for examples of adding audio to iBooks author, removing the white flash that occurs when loading widgets, and for various data-storage techniques created by widged. 
+Explore the /widgets folder for examples of adding audio to iBooks author, removing the white flash that occurs when loading widgets, and for various data-storage techniques created by widged.
 
-The following examples were forked from /widged/iBook-widgets/: 
-* firebugEmbed.wdgt	 
-* googleStorage.wdgt 
-* initializeGoogleStorage.wdgt 
-* jsxgraph.wdgt 
-* khanExercises.wdgt 
-* localStorage.wdgt 
-* sharingDataAcrossWidgets.wdgt
+The following examples were forked from /widged/iBook-widgets/:
+
+* firebugEmbed.wdgt - Shows how to embed a JS debugger within your widget
+* googleStorage.wdgt - Store data with Google's Spreadsheet api.
+* initializeGoogleStorage.wdgt
+* jsxgraph.wdgt
+* khanExercises.wdgt
+* localStorage.wdgt - Retain data when closing a widget (and closing iBooks!)
+* sharingDataAcrossWidgets.wdgt - Uses localStorage 
+
+Also includes:
+
+* Autoplaying audio (when opening widget)
+* Streaming and self-contained video
+*
